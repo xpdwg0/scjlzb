@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026年8月19日—8月26日 的素材积累周报</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", sans-serif;
+    background: #f5f6f8;
+    color: #262a33;
+    line-height: 1.75;
+    padding: 32px 16px 48px;
+  }
+  .report {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  /* ===== 标题区 ===== */
+  .header {
+    text-align: center;
+    padding: 40px 24px 34px;
+    background: linear-gradient(135deg, #ffffff 0%, #fafbfd 100%);
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(30, 40, 60, .06);
+    margin-bottom: 28px;
+  }
+  .kicker {
+    font-size: 13px;
+    letter-spacing: 6px;
+    color: #9aa3b2;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+  }
+  h1 {
+    font-size: clamp(28px, 4.6vw, 42px);
+    font-weight: 800;
+    letter-spacing: 2px;
+    background: linear-gradient(120deg, #b3362d 0%, #d4574c 45%, #1f5fa8 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.35;
+  }
+  .subtitle {
+    margin-top: 14px;
+    font-size: 14px;
+    color: #7a8394;
+  }
+  .subtitle b { color: #b3362d; font-weight: 600; }
+  .subtitle i { color: #1f5fa8; font-style: normal; font-weight: 600; }
+
+  /* ===== 区域卡片 ===== */
+  .region {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(30, 40, 60, .06);
+    padding: 30px 26px 26px;
+    margin-bottom: 28px;
+  }
+  .region-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 21px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    padding-bottom: 14px;
+    margin-bottom: 22px;
+    border-bottom: 2px solid #eef0f4;
+  }
+  .region-title .flag { font-size: 22px; }
+  .region-title .bar {
+    width: 6px; height: 22px;
+    border-radius: 3px;
+    background: #b3362d;
+    margin-right: 2px;
+  }
+  .region.international .region-title .bar { background: #1f5fa8; }
+  .region-title .en {
+    font-size: 12px;
+    color: #aab2c0;
+    letter-spacing: 3px;
+    font-weight: 400;
+  }
+  .region-sub {
+    font-size: 13px;
+    color: #8a93a3;
+    letter-spacing: 4px;
+    margin: -10px 0 20px;
+  }
+
+  /* ===== 新闻条目 ===== */
+  .item {
+    border: 1px solid #edf0f4;
+    border-left: 4px solid #b3362d;
+    border-radius: 10px;
+    padding: 18px 20px 14px;
+    margin-bottom: 18px;
+    background: #fcfcfd;
+  }
+  .region.international .item { border-left-color: #1f5fa8; }
+  .item-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  .badge {
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffffff;
+    background: #b3362d;
+    border-radius: 20px;
+    padding: 2px 12px;
+    letter-spacing: 1px;
+    white-space: nowrap;
+  }
+  .region.international .badge { background: #1f5fa8; }
+  .item-title {
+    font-size: 17px;
+    font-weight: 700;
+    color: #1c2029;
+    flex: 1;
+    min-width: 200px;
+  }
+  .date-pill {
+    font-size: 12.5px;
+    color: #5d6675;
+    background: #eef1f6;
+    border-radius: 20px;
+    padding: 2px 12px;
+    white-space: nowrap;
+  }
+  .field { margin-bottom: 7px; }
+  .field .label {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    color: #8a93a3;
+    width: 62px;
+    flex: none;
+  }
+  .field .value { font-size: 14.5px; color: #3a4150; }
+  .field .value b { color: #b3362d; }
+  .region.international .field .value b { color: #1f5fa8; }
+
+  /* ===== 人物条目 ===== */
+  .person {
+    border: 1px solid #edf0f4;
+    border-radius: 12px;
+    padding: 18px 20px 16px;
+    margin-bottom: 18px;
+    background: #fcfcfd;
+    box-shadow: 0 2px 8px rgba(30, 40, 60, .04);
+  }
+  .person-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #e3e7ee;
+  }
+  .heat {
+    font-size: 12px;
+    font-weight: 700;
+    color: #8a6d1a;
+    background: #fdf3d7;
+    border: 1px solid #f0dc9e;
+    border-radius: 20px;
+    padding: 2px 12px;
+    white-space: nowrap;
+  }
+  .person-name {
+    font-size: 19px;
+    font-weight: 800;
+    color: #1c2029;
+  }
+  .person-tag {
+    font-size: 12.5px;
+    color: #6b7485;
+    background: #eef1f6;
+    border-radius: 20px;
+    padding: 2px 12px;
+  }
+  .person .field .label { width: 74px; }
+  .themes {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px dashed #e3e7ee;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .themes .label {
+    font-size: 13px;
+    font-weight: 700;
+    color: #8a93a3;
+    padding-top: 2px;
+  }
+  .chip {
+    font-size: 12.5px;
+    color: #a1453c;
+    background: #fbeae8;
+    border: 1px solid #f3cfca;
+    border-radius: 20px;
+    padding: 2px 12px;
+    white-space: nowrap;
+  }
+  .region.international .chip {
+    color: #24598f;
+    background: #e7f0fa;
+    border-color: #c7daf0;
+  }
+
+  /* ===== 页脚 ===== */
+  .footer {
+    text-align: center;
+    font-size: 12.5px;
+    color: #9aa3b2;
+    padding: 8px 0 0;
+  }
+
+  @media (max-width: 640px) {
+    body { padding: 16px 8px 32px; }
+    .region { padding: 22px 14px 18px; }
+    .item, .person { padding: 14px 14px 12px; }
+  }
+  @media print {
+    body { background: #fff; padding: 0; }
+    .region, .header { box-shadow: none; border: 1px solid #ddd; }
+  }
+</style>
+</head>
+<body>
+<div class="report">
+
+  <!-- 标题 -->
+  <header class="header">
+    <div class="kicker">素材积累周报 · 作文素材库</div>
+    <h1>2026年8月19日—8月26日<br>的素材积累周报</h1>
+    <p class="subtitle">
+      本周精选 重大新闻 <b>4</b> 条 · 热门人物 <i>6</i> 位<br>
+      新闻按时间由远到近 · 人物按热度由高到低
+    </p>
+  </header>
+
+  <!-- ============ 上半部分：中国 ============ -->
+  <section class="region">
+    <div class="region-title">
+      <span class="bar"></span><span class="flag">🇨🇳</span>
+      <span>中国 · 重大新闻</span><span class="en">CHINA NEWS</span>
+    </div>
+
+    <!-- 国内新闻1 -->
+    <article class="item">
+      <div class="item-head">
+        <span class="badge">国内 ①</span>
+        <span class="item-title">"甲醛白菜"食品安全事件：多地紧急排查</span>
+        <span class="date-pill">8月21日 — 8月25日</span>
+      </div>
+      <div class="field"><span class="label">时间</span><span class="value">2026年8月21日—25日</span></div>
+      <div class="field"><span class="label">地点</span><span class="value">源头河北康保县，波及合肥、宿迁等多地农贸市场</span></div>
+      <div class="field"><span class="label">人物</span><span class="value">涉事白菜收购商贩；河北、安徽、江苏等地市场监管部门</span></div>
+      <div class="field"><span class="label">事件经过</span><span class="value">有博主爆料河北部分商贩在白菜收购环节蘸取<b>甲醛溶液</b>保鲜；8月22日康保县通报问题属实，多地启动紧急排查、追溯"甲醛白菜"流向；8月24日国家<b>三部门</b>指导地方快速处置，官方确认未流入北京新发地市场。</span></div>
+      <div class="field"><span class="label">影响</span><span class="value">再次敲响<b>食品安全</b>警钟：甲醛本是工业防腐剂，严禁用于食品。事件暴露生鲜冷链成本与逐利乱象（业内称"加点料"一车可省约2000元冷链费），推动各地强化农贸市场监管。</span></div>
+    </article>
+
+    <!-- 国内新闻2 -->
+    <article class="item">
+      <div class="item-head">
+        <span class="badge">国内 ②</span>
+        <span class="item-title">嫦娥七号推迟发射：任务不满足发射条件</span>
+        <span class="date-pill">8月23日</span>
+      </div>
+      <div class="field"><span class="label">时间</span><span class="value">2026年8月23日</span></div>
+      <div class="field"><span class="label">地点</span><span class="value">中国海南文昌（探月工程发射场）</span></div>
+      <div class="field"><span class="label">人物</span><span class="value">嫦娥七号任务团队、中国航天科技集团</span></div>
+      <div class="field"><span class="label">事件经过</span><span class="value">受台风<b>"紫檀"</b>持续在北部湾回旋影响，嫦娥七号任务不满足发射条件，官方宣布<b>不能在今年预定窗口实施发射</b>，任务时间表调整。</span></div>
+      <div class="field"><span class="label">影响</span><span class="value">体现中国航天"<b>安全第一、条件成熟再发射</b>"的科学态度——宁可推迟，不冒风险。媒体解读为探月工程"下一盘大棋"的从容布局，也是面对自然条件变化"有所不为"的智慧。</span></div>
+    </article>
+
+    <div class="region-sub">— · 国内热门人物 · —</div>
+
+    <!-- 国内人物1 -->
+    <article class="person">
+      <div class="person-head">
+        <span class="heat">热度 TOP 1</span>
+        <span class="person-name">郭德纲</span>
+        <span class="person-tag">德云社创始人 · 相声演员</span>
+      </div>
+      <div class="field"><span class="label">事件时间</span><span class="value">2026年8月19日—21日</span></div>
+      <div class="field"><span class="label">地点</span><span class="value">山东演出地；武汉市文旅部门</span></div>
+      <div class="field"><span class="label">起因</span><span class="value">郭德纲在演出中改编演唱红色经典曲目，被指"玩笑出界"，官媒发文批评。</span></div>
+      <div class="field"><span class="label">经过</span><span class="value">8月20日山东演出被叫停；8月21日<b>武汉市文旅部门宣布对其立案调查</b>，多场演出以"场地原因"延期。</span></div>
+      <div class="field"><span class="label">结果</span><span class="value">调查持续进行，德云社多场演出受影响。</span></div>
+      <div class="field"><span class="label">影响</span><span class="value">作为<b>草根逆袭</b>的典型代表——从三进北京、住桥洞吃泡面的落魄艺人，到一手创办德云社、复兴小剧场相声的文化名人，其传奇经历一直是"梦想与坚持"的经典素材；本次事件则提醒：越成功，越要<b>敬畏规则、守住底线</b>。</span></div>
+      <div class="themes"><span class="label">适用作文主题</span>
+        <span class="chip">梦想与坚持</span><span class="chip">挫折与逆袭</span><span class="chip">守正与创新</span><span class="chip">敬畏规则</span><span class="chip">公众人物的责任</span>
+      </div>
+    </article>
+
+    <!-- 国内人物2 -->
+    <article class="person">
+      <div class="person-head">
+        <span class="heat">热度 TOP 2</span>
+        <span class="person-name">梁伟铿 / 王昶</span>
+        <span class="person-tag">国羽男双"梁王"组合</span>
+      </div>
+      <div class="field"><span class="label">事件时间</span><span class="value">2026年8月23日</span></div>
+      <div class="field"><span class="label">地点</span><span class="value">印度新德里 · 2026年世界羽毛球锦标赛</span></div>
+      <div class="field"><span class="label">起因</span><span class="value">中国男双已<b>8年</b>未夺世锦赛金牌，"梁王"组合肩负"圆梦"期待冲击世界冠军。</span></div>
+      <div class="field"><span class="label">经过</span><span class="value">决赛中<b>2比0</b>战胜马来西亚组合谢定峰/苏伟译登顶；中国队本届世锦赛共收获<b>1金2银3铜</b>。</span></div>
+      <div class="field"><span class="label">结果</span><span class="value">夺得男双世界冠军，实现国羽男双时隔8年再登顶。</span></div>
+      <div class="field"><span class="label">影响</span><span class="value">"梁王"组合以球风互补、默契配合著称：一个重进攻、一个善防守。8年等待、两代人接力，诠释了<b>厚积薄发与团队协作</b>的力量，成为新一代体育偶像。</span></div>
+      <div class="themes"><span class="label">适用作文主题</span>
+        <span class="chip">团队协作</span><span class="chip">坚持与等待</span><span class="chip">奋斗成就梦想</span><span class="chip">传承与接力</span><span class="chip">默契配合</span>
+      </div>
+    </article>
+
+    <!-- 国内人物3 -->
+    <article class="person">
+      <div class="person-head">
+        <span class="heat">热度 TOP 3</span>
+        <span class="person-name">陈妤颉</span>
+        <span class="person-tag">17岁短跑新星 · "小孩姐"</span>
+      </div>
+      <div class="field"><span class="label">事件时间</span><span class="value">8月13日破纪录夺冠；本周（亚运会倒计时30天）持续受关注</span></div>
+      <div class="field"><span class="label">地点</span><span class="value">浙江衢州 · 2026年全国田径锦标赛</span></div>
+      <div class="field"><span class="label">起因</span><span class="value">17岁的她冲击女子100米<b>亚洲青年纪录</b>，目标是登上世界领奖台。</span></div>
+      <div class="field"><span class="label">经过</span><span class="value">女子100米决赛跑出<b>11秒08</b>，刷新亚洲U20纪录并夺冠；赛后淡定回应掌声，直言"要走向世界领奖台"。</span></div>
+      <div class="field"><span class="label">结果</span><span class="value">成为亚洲青年纪录保持者，锁定<b>名古屋亚运会</b>参赛席位，本周正值亚运会倒计时30天。</span></div>
+      <div class="field"><span class="label">影响</span><span class="value">"小孩姐"破纪录话题刷屏网络。少年成名而不骄、目标清晰而笃定，被视为中国田径新生代希望，也激励无数青少年相信<b>"年轻不是资本，努力才是"</b>。</span></div>
+      <div class="themes"><span class="label">适用作文主题</span>
+        <span class="chip">少年强则国强</span><span class="chip">天赋与勤奋</span><span class="chip">突破极限</span><span class="chip">从容自信</span><span class="chip">梦想与目标</span>
+      </div>
+    </article>
+  </section>
+
+  <!-- ============ 下半部分：国外 ============ -->
+  <section class="region international">
+    <div class="region-title">
+      <span class="bar"></span><span class="flag">🌍</span>
+      <span>国外 · 重大新闻</span><span class="en">WORLD NEWS</span>
+    </div>
+
+    <!-- 国外新闻1 -->
+    <article class="item">
+      <div class="item-head">
+        <span class="badge">国际 ①</span>
+        <span class="item-title">30多国组成"志愿联盟"，拟在停火后向乌克兰派兵</span>
+        <span class="date-pill">8月24日 — 8月25日</span>
+      </div>
+      <div class="field"><span class="label">时间</span><span class="value">2026年8月24日—25日</span></div>
+      <div class="field"><span class="label">地点</span><span class="value">乌克兰及欧洲多国（英、法、日、澳等参与磋商）</span></div>
+      <div class="field"><span class="label">人物</span><span class="value">乌克兰总统泽连斯基；英国首相伯纳姆等欧洲领导人</span></div>
+      <div class="field"><span class="label">事件经过</span><span class="value">约30多国宣布组成<b>"志愿联盟"</b>，计划在俄乌达成停火后立即向乌克兰派遣国际部队保障安全；英国首相伯纳姆计划9月联合欧洲领导人访美，游说特朗普向乌克兰提供"爱国者"拦截导弹。</span></div>
+      <div class="field"><span class="label">影响</span><span class="value">俄方明确表示北约部队部署乌克兰"<b>不可接受</b>"。围绕"停火后的安全保障"这一难题，大国博弈再度升级，欧洲安全格局走向成为全球焦点。</span></div>
+    </article>
+
+    <!-- 国外新闻2 -->
+    <article class="item">
+      <div class="item-head">
+        <span class="badge">国际 ②</span>
+        <span class="item-title">美中情局局长秘密访俄，美俄罕见高层接触</span>
+        <span class="date-pill">8月25日 — 8月26日</span>
+      </div>
+      <div class="field"><span class="label">时间</span><span class="value">2026年8月25日—26日</span></div>
+      <div class="field"><span class="label">地点</span><span class="value">俄罗斯莫斯科</span></div>
+      <div class="field"><span class="label">人物</span><span class="value">美国中情局局长；俄罗斯情报部门</span></div>
+      <div class="field"><span class="label">事件经过</span><span class="value">俄方证实美中情局局长访问莫斯科，进行<b>情报部门间接触</b>；美军机在俄停留约<b>8.5小时</b>后离开，未与俄总统普京会面。</span></div>
+      <div class="field"><span class="label">影响</span><span class="value">在俄乌冲突背景下，美俄仍保持罕见的<b>高层级沟通渠道</b>——越是关系紧张，越需要"对话的勇气"。此举被解读为双方管控分歧、避免误判的信号。</span></div>
+    </article>
+
+    <div class="region-sub">— · 国外热门人物 · —</div>
+
+    <!-- 国外人物1 -->
+    <article class="person">
+      <div class="person-head">
+        <span class="heat">热度 TOP 1</span>
+        <span class="person-name">泽连斯基</span>
+        <span class="person-tag">乌克兰总统 · 战时领导人</span>
+      </div>
+      <div class="field"><span class="label">事件时间</span><span class="value">2026年8月23日—24日</span></div>
+      <div class="field"><span class="label">地点</span><span class="value">乌克兰基辅</span></div>
+      <div class="field"><span class="label">起因</span><span class="value">俄乌冲突持续，西方围绕"停火后乌克兰安全保障"展开激烈博弈。</span></div>
+      <div class="field"><span class="label">经过</span><span class="value">8月23日泽连斯基表态"乌克兰<b>不会寻求加入北约之外的替代方案</b>"；8月24日公开承认此前在"乌军使用星链打击俄罗斯"一事上<b>欺骗了特朗普</b>，称系被乌克兰国防部的错误信息误导，并向其道歉澄清。</span></div>
+      <div class="field"><span class="label">结果</span><span class="value">乌美关系出现摩擦，国际舆论围绕其信誉展开讨论。</span></div>
+      <div class="field"><span class="label">影响</span><span class="value">从喜剧演员到战时总统，泽连斯基的转型本就是"<b>逆境与蜕变</b>"的经典样本；本周风波则展示了大国夹缝中领导人的两难——既要坚持立场，又要在压力下修正错误、维护信誉。</span></div>
+      <div class="themes"><span class="label">适用作文主题</span>
+        <span class="chip">危机中的担当</span><span class="chip">坚守立场</span><span class="chip">逆境与蜕变</span><span class="chip">诚信与信誉</span><span class="chip">两难抉择</span>
+      </div>
+    </article>
+
+    <!-- 国外人物2 -->
+    <article class="person">
+      <div class="person-head">
+        <span class="heat">热度 TOP 2</span>
+        <span class="person-name">特朗普</span>
+        <span class="person-tag">美国总统</span>
+      </div>
+      <div class="field"><span class="label">事件时间</span><span class="value">2026年8月24日—25日</span></div>
+      <div class="field"><span class="label">地点</span><span class="value">美国</span></div>
+      <div class="field"><span class="label">起因</span><span class="value">美国对乌援助立场强硬，要求欧洲承担更多责任，与乌克兰及欧洲盟国分歧公开化。</span></div>
+      <div class="field"><span class="label">经过</span><span class="value">特朗普当面指责泽连斯基"欺骗他"，围绕"星链"与"爱国者"导弹问题与多方周旋；英国首相伯纳姆计划9月访美游说。</span></div>
+      <div class="field"><span class="label">结果</span><span class="value">美欧在援乌问题上的分歧公开化，谈判气氛紧张。</span></div>
+      <div class="field"><span class="label">影响</span><span class="value">其"实力优先、当面摊牌"的外交风格，成为观察<b>实力政治与国际博弈</b>的鲜活案例——大国之间没有永远的朋友，只有利益的权衡。</span></div>
+      <div class="themes"><span class="label">适用作文主题</span>
+        <span class="chip">实力与话语权</span><span class="chip">博弈与谈判</span><span class="chip">大国责任</span><span class="chip">强硬与妥协</span><span class="chip">利益与原则</span>
+      </div>
+    </article>
+
+    <!-- 国外人物3 -->
+    <article class="person">
+      <div class="person-head">
+        <span class="heat">热度 TOP 3</span>
+        <span class="person-name">埃隆·马斯克</span>
+        <span class="person-tag">特斯拉 · SpaceX创始人</span>
+      </div>
+      <div class="field"><span class="label">事件时间</span><span class="value">2026年8月24日前后</span></div>
+      <div class="field"><span class="label">地点</span><span class="value">美国（牵涉乌克兰战场）</span></div>
+      <div class="field"><span class="label">起因</span><span class="value">乌军方曾向泽连斯基表示，马斯克同意乌军使用其旗下"星链"卫星系统打击俄罗斯目标。</span></div>
+      <div class="field"><span class="label">经过</span><span class="value">该说法后被证实为<b>误导信息</b>，泽连斯基为此向特朗普道歉；"星链"是否应介入战争、谁有权决定关键技术用于军事，成为国际争议焦点。</span></div>
+      <div class="field"><span class="label">结果</span><span class="value">星链在俄乌冲突中的角色再度引发全球讨论。</span></div>
+      <div class="field"><span class="label">影响</span><span class="value">一个商业科技公司掌握的卫星网络，竟能左右战场信息命脉——"<b>掌握关键基础设施即掌握话语权</b>"。技术中立吗？科技巨头的权力边界何在？值得深思。</span></div>
+      <div class="themes"><span class="label">适用作文主题</span>
+        <span class="chip">科技向善</span><span class="chip">技术与伦理</span><span class="chip">责任与权力</span><span class="chip">技术中立之辩</span><span class="chip">创新与边界</span>
+      </div>
+    </article>
+  </section>
+
+  <footer class="footer">
+    素材综合自新华社、央视新闻、人民日报、光明网等权威媒体及公开报道，仅供作文素材积累参考 · 生成于 2026年8月26日
+  </footer>
+
+</div>
+</body>
+</html>
