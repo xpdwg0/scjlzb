@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026年8月27日—9月12日 的素材积累周报</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", sans-serif;
+    background: #f5f6f8;
+    color: #262a33;
+    line-height: 1.75;
+    padding: 32px 16px 48px;
+  }
+  .report { max-width: 960px; margin: 0 auto; }
+
+  /* ===== 标题区 ===== */
+  .header {
+    text-align: center;
+    padding: 40px 24px 34px;
+    background: linear-gradient(135deg, #ffffff 0%, #fafbfd 100%);
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(30, 40, 60, .06);
+    margin-bottom: 28px;
+  }
+  .kicker {
+    font-size: 13px; letter-spacing: 6px; color: #9aa3b2;
+    margin-bottom: 14px; text-transform: uppercase;
+  }
+  h1 {
+    font-size: clamp(26px, 4.4vw, 40px);
+    font-weight: 800; letter-spacing: 2px;
+    background: linear-gradient(120deg, #b3362d 0%, #d4574c 45%, #1f5fa8 100%);
+    -webkit-background-clip: text; background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.4;
+  }
+  .subtitle { margin-top: 14px; font-size: 14px; color: #7a8394; }
+  .subtitle b { color: #b3362d; font-weight: 600; }
+  .subtitle i { color: #1f5fa8; font-style: normal; font-weight: 600; }
+
+  /* ===== 区域卡片 ===== */
+  .region {
+    background: #ffffff; border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(30, 40, 60, .06);
+    padding: 30px 26px 26px; margin-bottom: 28px;
+  }
+  .region-title {
+    display: flex; align-items: center; gap: 10px;
+    font-size: 21px; font-weight: 800; letter-spacing: 2px;
+    padding-bottom: 14px; margin-bottom: 22px;
+    border-bottom: 2px solid #eef0f4;
+  }
+  .region-title .flag { font-size: 22px; }
+  .region-title .bar {
+    width: 6px; height: 22px; border-radius: 3px;
+    background: #b3362d; margin-right: 2px;
+  }
+  .region.international .region-title .bar { background: #1f5fa8; }
+  .region-title .en {
+    font-size: 12px; color: #aab2c0; letter-spacing: 3px; font-weight: 400;
+  }
+  .region-sub {
+    font-size: 13px; color: #8a93a3; letter-spacing: 4px;
+    margin: -10px 0 20px;
+  }
+
+  /* ===== 新闻条目 ===== */
+  .item {
+    border: 1px solid #edf0f4; border-left: 4px solid #b3362d;
+    border-radius: 10px; padding: 18px 20px 14px;
+    margin-bottom: 18px; background: #fcfcfd;
+  }
+  .region.international .item { border-left-color: #1f5fa8; }
+  .item-head {
+    display: flex; align-items: center; gap: 10px;
+    flex-wrap: wrap; margin-bottom: 10px;
+  }
+  .badge {
+    font-size: 12px; font-weight: 700; color: #fff;
+    background: #b3362d; border-radius: 20px;
+    padding: 2px 12px; letter-spacing: 1px; white-space: nowrap;
+  }
+  .region.international .badge { background: #1f5fa8; }
+  .item-title {
+    font-size: 17px; font-weight: 700; color: #1c2029;
+    flex: 1; min-width: 200px;
+  }
+  .date-pill {
+    font-size: 12.5px; color: #5d6675; background: #eef1f6;
+    border-radius: 20px; padding: 2px 12px; white-space: nowrap;
+  }
+  .field { margin-bottom: 7px; }
+  .field .label {
+    display: inline-block; font-size: 13px; font-weight: 700;
+    color: #8a93a3; width: 62px; flex: none;
+  }
+  .field .value { font-size: 14.5px; color: #3a4150; }
+  .field .value b { color: #b3362d; }
+  .region.international .field .value b { color: #1f5fa8; }
+
+  /* ===== 人物条目 ===== */
+  .person {
+    border: 1px solid #edf0f4; border-radius: 12px;
+    padding: 18px 20px 16px; margin-bottom: 18px;
+    background: #fcfcfd; box-shadow: 0 2px 8px rgba(30, 40, 60, .04);
+  }
+  .person-head {
+    display: flex; align-items: center; gap: 10px;
+    flex-wrap: wrap; margin-bottom: 12px; padding-bottom: 10px;
+    border-bottom: 1px dashed #e3e7ee;
+  }
+  .heat {
+    font-size: 12px; font-weight: 700; color: #8a6d1a;
+    background: #fdf3d7; border: 1px solid #f0dc9e;
+    border-radius: 20px; padding: 2px 12px; white-space: nowrap;
+  }
+  .person-name { font-size: 19px; font-weight: 800; color: #1c2029; }
+  .person-tag {
+    font-size: 12.5px; color: #6b7485; background: #eef1f6;
+    border-radius: 20px; padding: 2px 12px;
+  }
+  .person .field .label { width: 74px; }
+  .themes {
+    margin-top: 12px; padding-top: 12px; border-top: 1px dashed #e3e7ee;
+    display: flex; align-items: flex-start; gap: 8px; flex-wrap: wrap;
+  }
+  .themes .label {
+    font-size: 13px; font-weight: 700; color: #8a93a3; padding-top: 2px;
+  }
+  .chip {
+    font-size: 12.5px; color: #a1453c; background: #fbeae8;
+    border: 1px solid #f3cfca; border-radius: 20px;
+    padding: 2px 12px; white-space: nowrap;
+  }
+  .region.international .chip {
+    color: #24598f; background: #e7f0fa; border-color: #c7daf0;
+  }
+
+  /* ===== 页脚 ===== */
+  .footer {
+    text-align: center; font-size: 12.5px; color: #9aa3b2; padding: 8px 0 0;
+  }
+
+  @media (max-width: 640px) {
+    body { padding: 16px 8px 32px; }
+    .region { padding: 22px 14px 18px; }
+    .item, .person { padding: 14px 14px 12px; }
+  }
+  @media print {
+    body { background: #fff; padding: 0; }
+    .region, .header { box-shadow: none; border: 1px solid #ddd; }
+  }
+</style>
+</head>
+<body>
+<div class="report">
+
+  <!-- 标题 -->
+  <header class="header">
+    <div class="kicker">素材积累周报 · 作文素材库</div>
+    <h1>2026年8月27日—9月12日<br>的素材积累周报</h1>
+    <p class="subtitle">
+      本期精选 重大新闻 <b>4</b> 条 · 热门人物 <i>6</i> 位<br>
+      新闻按时间由远到近 · 人物按热度由高到低
+    </p>
+  </header>
+
+  <!-- ============ 上半部分：中国 ============ -->
+  <section class="region">
+    <div class="region-title">
+      <span class="bar"></span><span class="flag">🇨🇳</span>
+      <span>中国 · 重大新闻</span><span class="en">CHINA NEWS</span>
+    </div>
+
+    <!-- 国内新闻1 -->
+    <article class="item">
+      <div class="item-head">
+        <span class="badge">国内 ①</span>
+        <span class="item-title">西藏吉隆冰崩泥石流灾害：冰湖溃决冲击边境口岸</span>
+        <span class="date-pill">8月27日 — 9月上旬</span>
+      </div>
+      <div class="field"><span class="label">时间</span><span class="value">2026年8月27日—9月上旬</span></div>
+      <div class="field"><span class="label">地点</span><span class="value">西藏日喀则市吉隆县·吉隆口岸（G216国道），灾害源头在尼泊尔一侧万年冰川</span></div>
+      <div class="field"><span class="label">人物</span><span class="value">受灾群众与边境建设者；西藏消防、武警、交通抢险力量；科研团队</span></div>
+      <div class="field"><span class="label">事件经过</span><span class="value">尼泊尔一侧冰川发生<b>冰岩崩</b>，融水裹挟泥沙形成冰川洪流，冲击中尼边境的吉隆口岸；G216国道被冲毁中断，抢险在峭壁与急流之间展开——水中"填"路、爆破清障。至9月3日确认<b>21人遇难</b>，遇难者中暂未发现外国人遗体。</span></div>
+      <div class="field"><span class="label">影响</span><span class="value">全国重点实验室公布灾害初步研判报告。专家提醒：全球变暖正加速冰川消融，而现有冰湖预警体系<b>无法监控冰川崩塌</b>，"冰冻圈灾害"成为全人类必须共同面对的新风险。</span></div>
+    </article>
+
+    <!-- 国内新闻2 -->
+    <article class="item">
+      <div class="item-head">
+        <span class="badge">国内 ②</span>
+        <span class="item-title">青岛北海造船厂外籍货轮火灾，25人遇难</span>
+        <span class="date-pill">9月9日 — 9月10日</span>
+      </div>
+      <div class="field"><span class="label">时间</span><span class="value">2026年9月9日—10日（官方通报）</span></div>
+      <div class="field"><span class="label">地点</span><span class="value">山东青岛·北海造船厂</span></div>
+      <div class="field"><span class="label">人物</span><span class="value">25名遇难作业人员；外籍船东与中资营运方；消防救援与应急力量</span></div>
+      <div class="field"><span class="label">事件经过</span><span class="value">一艘已<b>服役20年</b>的外籍货轮在船厂维修期间突发大火，浓烟冲天。9月10日官方通报<b>25人遇难</b>，习近平作出重要指示，要求<b>严肃追究责任</b>。</span></div>
+      <div class="field"><span class="label">影响</span><span class="value">引发对船舶维修动火作业、安全管理制度与外包用工监管的追问；安全生产的<b>"责任链条"</b>再度成为全民关注焦点。</span></div>
+    </article>
+
+    <div class="region-sub">— · 国内热门人物 · —</div>
+
+    <!-- 国内人物1 -->
+    <article class="person">
+      <div class="person-head">
+        <span class="heat">热度 TOP 1</span>
+        <span class="person-name">刘翔</span>
+        <span class="person-tag">110米栏奥运冠军 · "中国飞人"</span>
+      </div>
+      <div class="field"><span class="label">事件时间</span><span class="value">2026年9月9日—10日（买断手续于9月1日办结）</span></div>
+      <div class="field"><span class="label">地点</span><span class="value">上海</span></div>
+      <div class="field"><span class="label">起因</span><span class="value">退役11年后，运动员"安置"问题迟迟未能了结。</span></div>
+      <div class="field"><span class="label">经过</span><span class="value">刘翔发文称已于9月1日以<b>49.4万元"买断"</b>，与体育局再无关联，并将这笔钱<b>全数捐给西藏泥石流救灾</b>；上海市体育局回应退役安置"买断"问题，表示将依规处理。</span></div>
+      <div class="field"><span class="label">结果</span><span class="value">个案达成和解，但"<b>运动员退役保障制度漏洞</b>"被推到台前。</span></div>
+      <div class="field"><span class="label">影响</span><span class="value">2004年雅典奥运会夺冠，他一跃成为"中国飞人"；2008年北京奥运、2012年伦敦奥运两度因伤退赛，背负巨大舆论压力；11年后以"捐出买断费"平静回应争议。他的经历既照见公众对运动员<b>从苛责到理解</b>的转变，也照见体育体制待补的一课。</span></div>
+      <div class="themes"><span class="label">适用作文主题</span>
+        <span class="chip">英雄的落寞与宽容</span><span class="chip">理解与尊重</span><span class="chip">伤病与坚持</span><span class="chip">体制与个人</span><span class="chip">感恩与回馈</span>
+      </div>
+    </article>
+
+    <!-- 国内人物2 -->
+    <article class="person">
+      <div class="person-head">
+        <span class="heat">热度 TOP 2</span>
+        <span class="person-name">全红婵</span>
+        <span class="person-tag">跳水奥运冠军 · "水花消失术"</span>
+      </div>
+      <div class="field"><span class="label">事件时间</span><span class="value">2026年9月4日—10日</span></div>
+      <div class="field"><span class="label">地点</span><span class="value">中国（名古屋亚运会参赛名单公示）</span></div>
+      <div class="field"><span class="label">起因</span><span class="value">全红婵此前因伤缺席亚运会选拔赛。</span></div>
+      <div class="field"><span class="label">经过</span><span class="value">国家体育总局游泳中心公示亚运会参赛名单：女子双人10米台由<b>陈芋汐、卢为</b>出战，全红婵<b>确认无缘亚运会</b>。中国代表团815名运动员中，年龄最小的仅12岁。</span></div>
+      <div class="field"><span class="label">结果</span><span class="value">天才少女缺席亚运，全网惋惜与关心。</span></div>
+      <div class="field"><span class="label">影响</span><span class="value">从东京奥运会五跳三满分一战成名，到伤病反复、连续缺席大赛——这提醒我们：<b>天赋之上还有身体的极限</b>，冠军也要学会与伤病、与低谷共处。</span></div>
+      <div class="themes"><span class="label">适用作文主题</span>
+        <span class="chip">成长的代价</span><span class="chip">与伤病共处</span><span class="chip">理解与宽容</span><span class="chip">超越自我</span><span class="chip">健康的可贵</span>
+      </div>
+    </article>
+
+    <!-- 国内人物3 -->
+    <article class="person">
+      <div class="person-head">
+        <span class="heat">热度 TOP 3</span>
+        <span class="person-name">申军良</span>
+        <span class="person-tag">"梅姨案"寻子父亲</span>
+      </div>
+      <div class="field"><span class="label">事件时间</span><span class="value">2026年9月7日—9日</span></div>
+      <div class="field"><span class="label">地点</span><span class="value">广东（"梅姨"案相关信息披露）</span></div>
+      <div class="field"><span class="label">起因</span><span class="value">其子申聪曾被拐卖，他寻子多年；作为关键中间人的"梅姨"长期未归案。</span></div>
+      <div class="field"><span class="label">经过</span><span class="value">申军良及代理律师披露"梅姨"真实身份：<b>65岁、广西人、使用多个假名、曾犯重婚罪</b>，落网时已有家庭，本人与网络流传画像存在差异；同时透露其未达不适用死刑年龄、名下财产难以执行。</span></div>
+      <div class="field"><span class="label">结果</span><span class="value">案件进入新阶段，公众对"天下无拐"的关注再度升温。</span></div>
+      <div class="field"><span class="label">影响</span><span class="value">从一个父亲的漫漫寻子路，到推动打拐技术与社会防线的完善——<b>个人的坚持，也能推动制度的进步</b>。</span></div>
+      <div class="themes"><span class="label">适用作文主题</span>
+        <span class="chip">父爱如山</span><span class="chip">坚持的力量</span><span class="chip">正义不会缺席</span><span class="chip">个人推动社会进步</span><span class="chip">团圆的重量</span>
+      </div>
+    </article>
+  </section>
+
+  <!-- ============ 下半部分：国外 ============ -->
+  <section class="region international">
+    <div class="region-title">
+      <span class="bar"></span><span class="flag">🌍</span>
+      <span>国外 · 重大新闻</span><span class="en">WORLD NEWS</span>
+    </div>
+
+    <!-- 国外新闻1 -->
+    <article class="item">
+      <div class="item-head">
+        <span class="badge">国际 ①</span>
+        <span class="item-title">尼泊尔冰川冰崩引发特大洪灾，遇难者逾1400人</span>
+        <span class="date-pill">8月27日 — 9月上旬</span>
+      </div>
+      <div class="field"><span class="label">时间</span><span class="value">2026年8月27日—9月上旬</span></div>
+      <div class="field"><span class="label">地点</span><span class="value">尼泊尔（并波及中国西藏边境地区）</span></div>
+      <div class="field"><span class="label">人物</span><span class="value">尼泊尔受灾民众、尼泊尔政府与研究机构、国际救援力量</span></div>
+      <div class="field"><span class="label">事件经过</span><span class="value">尼泊尔一侧万年冰川发生<b>冰岩崩</b>，引发冰川洪水，被形容为"<b>内陆海啸</b>"。8月28日已致392人死亡、逾千人失联；9月5日升至810人死亡、逾3000人失踪；至9月8日，死亡人数已<b>逾1400人</b>，失踪人数持续攀升。</span></div>
+      <div class="field"><span class="label">影响</span><span class="value">专家指出，全球变暖加速冰川消融，而现有冰湖预警体系无法监控冰川崩塌。冰冻圈灾害频发，成为<b>全人类共同的挑战</b>，也为跨境防灾合作敲响警钟。</span></div>
+    </article>
+
+    <!-- 国外新闻2 -->
+    <article class="item">
+      <div class="item-head">
+        <span class="badge">国际 ②</span>
+        <span class="item-title">美伊重回军事对抗：美军弹药疑击中伊朗婚礼</span>
+        <span class="date-pill">9月1日 — 9月10日</span>
+      </div>
+      <div class="field"><span class="label">时间</span><span class="value">2026年9月1日—10日</span></div>
+      <div class="field"><span class="label">地点</span><span class="value">伊朗南部霍尔木兹甘省锡里克地区、波斯湾海域</span></div>
+      <div class="field"><span class="label">人物</span><span class="value">美军、伊朗军方；美国副总统万斯、美国总统特朗普</span></div>
+      <div class="field"><span class="label">事件经过</span><span class="value">停火约一个月后美伊<b>重新开火</b>，双方在海上"报复循环"式相互袭击。美军弹药疑"偏离目标"直接命中锡里克一场<b>婚礼</b>，致5人死亡、近70人受伤，现场发现美国海军武器残骸。美方未承认对此负责，副总统万斯称"有时难免会发生这样的事"，并称正在调查、对伊媒报道持怀疑态度；特朗普随后预告战事将终结，伊朗则开出条件。</span></div>
+      <div class="field"><span class="label">影响</span><span class="value">中东局势再度紧张，霍尔木兹海峡通航与全球能源安全备受关注；<b>平民伤亡</b>引发国际社会对所谓"精确打击"的强烈质疑。</span></div>
+    </article>
+
+    <div class="region-sub">— · 国外热门人物 · —</div>
+
+    <!-- 国外人物1 -->
+    <article class="person">
+      <div class="person-head">
+        <span class="heat">热度 TOP 1</span>
+        <span class="person-name">特朗普</span>
+        <span class="person-tag">美国总统</span>
+      </div>
+      <div class="field"><span class="label">事件时间</span><span class="value">2026年9月9日—10日</span></div>
+      <div class="field"><span class="label">地点</span><span class="value">美国、中东</span></div>
+      <div class="field"><span class="label">起因</span><span class="value">美伊军事对抗重启，俄乌战事僵持不下。</span></div>
+      <div class="field"><span class="label">经过</span><span class="value">一方面预告对伊战事"<b>将终结</b>"，伊朗开出条件（美伊海上"报复循环"加剧）；另一方面与普京<b>通话一小时</b>，称"他希望结束对乌战争"，并表示不排除举行美俄<b>双边会晤</b>。</span></div>
+      <div class="field"><span class="label">结果</span><span class="value">中东与东欧两条战线同时进入"谈打交织"的微妙阶段。</span></div>
+      <div class="field"><span class="label">影响</span><span class="value">"边打边谈"成为其外交的鲜明标签——实力与谈判交替使用，<b>利益与话语权</b>的分量展露无遗。</span></div>
+      <div class="themes"><span class="label">适用作文主题</span>
+        <span class="chip">实力与话语权</span><span class="chip">博弈与谈判</span><span class="chip">打与谈的智慧</span><span class="chip">大国责任</span><span class="chip">利益与原则</span>
+      </div>
+    </article>
+
+    <!-- 国外人物2 -->
+    <article class="person">
+      <div class="person-head">
+        <span class="heat">热度 TOP 2</span>
+        <span class="person-name">普京</span>
+        <span class="person-tag">俄罗斯总统</span>
+      </div>
+      <div class="field"><span class="label">事件时间</span><span class="value">2026年9月9日—10日</span></div>
+      <div class="field"><span class="label">地点</span><span class="value">俄罗斯莫斯科</span></div>
+      <div class="field"><span class="label">起因</span><span class="value">俄乌战事长期僵持，外部压力持续。</span></div>
+      <div class="field"><span class="label">经过</span><span class="value">与特朗普<b>通电话一小时</b>。俄方称通话"富有建设性且非常坦诚"，表示希望恢复<b>三方谈判</b>；特朗普称普京希望结束对乌战争，双方不排除举行双边会晤。</span></div>
+      <div class="field"><span class="label">结果</span><span class="value">美俄高层沟通渠道重新打通，双边会晤被提上可能议程。</span></div>
+      <div class="field"><span class="label">影响</span><span class="value">从"隔空喊话"到"直接通话"，说明冲突再深，也要为对话留一扇窗；也让人看清地缘政治中<b>现实主义</b>的运作逻辑。</span></div>
+      <div class="themes"><span class="label">适用作文主题</span>
+        <span class="chip">对话的价值</span><span class="chip">现实主义外交</span><span class="chip">战争与和平</span><span class="chip">留有余地</span><span class="chip">耐心与博弈</span>
+      </div>
+    </article>
+
+    <!-- 国外人物3 -->
+    <article class="person">
+      <div class="person-head">
+        <span class="heat">热度 TOP 3</span>
+        <span class="person-name">默茨</span>
+        <span class="person-tag">德国总理</span>
+      </div>
+      <div class="field"><span class="label">事件时间</span><span class="value">2026年9月6日—8日</span></div>
+      <div class="field"><span class="label">地点</span><span class="value">德国（东部萨安州）</span></div>
+      <div class="field"><span class="label">起因</span><span class="value">极右翼政党德国选择党在萨安州州议会选举中冲击主流政党。</span></div>
+      <div class="field"><span class="label">经过</span><span class="value">选择党取得<b>历史性胜利</b>，默茨回应"<b>深感震惊，没想到会这样</b>"；随后又以"日程繁忙"为由，在最后一刻退出法国太空峰会。</span></div>
+      <div class="field"><span class="label">结果</span><span class="value">德国政坛长期奉行的"<b>防火墙</b>"（主流政党不与极右翼合作）受到严峻冲击。</span></div>
+      <div class="field"><span class="label">影响</span><span class="value">媒体称这一结果"<b>拉响欧洲警报</b>"——经济焦虑、移民议题与民粹情绪叠加，主流政治如何回应民意、守住底线，成为全欧洲的共同考题。</span></div>
+      <div class="themes"><span class="label">适用作文主题</span>
+        <span class="chip">时代的挑战与回应</span><span class="chip">警惕极端</span><span class="chip">责任与担当</span><span class="chip">民意的两面性</span><span class="chip">守住底线</span>
+      </div>
+    </article>
+  </section>
+
+  <footer class="footer">
+    素材综合自新华社、央视新闻、人民日报、光明网等权威媒体及公开报道，仅供作文素材积累参考 · 生成于 2026年9月12日
+  </footer>
+
+</div>
+</body>
+</html>
